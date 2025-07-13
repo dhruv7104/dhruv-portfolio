@@ -1,8 +1,16 @@
-// vite.config.js
-export default {
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
   server: {
-    allowedHosts: [
-      '93b5166e-39da-41f0-a71b-b29f975048d7-00-2yhpml9ri7q2g.sisko.replit.dev'
-    ]
-  }
-};
+    // Optional: Allow access from Vercel's preview domain
+    allowedHosts: 'all'
+  },
+  build: {
+    outDir: 'dist',
+  },
+  // Optional: For custom domain or GitHub Pages base path
+  // base: '/your-repo-name/' 
+});
