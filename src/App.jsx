@@ -33,7 +33,7 @@ function App() {
           <div className="subheading">Languages</div>
           <ul className="skills">
             <li>C</li>
-            <li>Java</li>
+            <li>Python</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
