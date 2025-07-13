@@ -89,10 +89,10 @@ function App() {
         <p>Phone: 8766511598</p>
 
         <div style={{ marginTop: "20px", display: "flex", gap: "20px" }}>
-          <a href="https://github.com/dhruvgonnade" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/dhruv7104" target="_blank" rel="noopener noreferrer">
             <Github size={28} color="#0d47a1" />
           </a>
-          <a href="https://www.linkedin.com/in/dhruv-gonnade" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/dhruv-gonnade-285a39374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
             <Linkedin size={28} color="#0d47a1" />
           </a>
           <a href="mailto:dhruvgonnade000@gmail.com">
