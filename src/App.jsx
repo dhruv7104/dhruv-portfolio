@@ -82,7 +82,14 @@ function App() {
           </p>
         </div>
       </section>
-
+       <div className="project">
+          <h4>Pybot</h4>
+          <p>
+            Developed an AI-powered chatbot using Python (Flask) and React, featuring fuzzy matching, generative replies,
+            and online information retrieval via web APIs. Deployed on Render and Vercel for full-stack accessibility. 
+          </p>
+        </div>
+      </section>
       <section id="contact">
         <h3>Contact</h3>
         <p>Email: <a href="mailto:dhruvgonnade000@gmail.com">dhruvgonnade000@gmail.com</a></p>
